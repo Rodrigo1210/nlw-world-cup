@@ -24,12 +24,12 @@ function createCard(date, day, games) {
 
 document.querySelector('.cards').innerHTML = `
         ${createCard("20/11", "Sunday", 
-            createGame("Qatar", "13:00", "Ecuador")
+            createGame("qatar", "13:00", "ecuador")
         )}
 
         ${createCard("21/11", "Monday",
-            createGame("Senegal", "13:00", "Netherlands") +
-            createGame("England", "10:00", "Iran") +
-            createGame("United-States", "16:00", "Wales")
+            createGame("senegal", "13:00", "netherlands") +
+            createGame("england", "10:00", "iran") +
+            createGame("united-states", "16:00", "wales")
         )}
 `
